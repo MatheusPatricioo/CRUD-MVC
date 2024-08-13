@@ -13,7 +13,12 @@ class HomeController extends Controller {
     }
 
     public function fotos() {
-       
+        $this->render('fotos') ;
+    }
+
+    public function foto($parametro) {
+       echo "Unica foto...";
+       print_r($parametro);
     }
 
     public function sobre() {
