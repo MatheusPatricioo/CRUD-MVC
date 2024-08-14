@@ -12,14 +12,6 @@ class HomeController extends Controller {
         $this->render('home', ['nome' => 'Patricio']);
     }
 
-    public function fotos() {
-        $this->render('fotos') ;
-    }
-
-    public function foto($parametro) {
-       echo "Unica foto...";
-       print_r($parametro);
-    }
 
     public function sobre() {
         $this->render('sobre');

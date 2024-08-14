@@ -9,8 +9,7 @@ da classe Controll seguido de um @ e logo dps o metodo
 que vai ser acessado. 
 */
 
-$router->get('/foto/{id}','HomeController@foto');
-$router->get('/fotos','HomeController@fotos');
+
 $router->get('/', 'HomeController@index');
-$router->get('/sobre/{nome}', 'HomeController@sobreP');
-$router->get('/sobre', 'HomeController@sobre');
+//essa rota vou deixar pra adicionar novos usuarios;
+$router->get('/novo','UsuarioController@add');
